@@ -1,0 +1,118 @@
+body{
+    background-color: #FAF9FA;
+}
+.container{
+    width: 550px;
+}
+.input-title{
+    border: none;
+}
+.inner-addon { 
+    position: relative; 
+}
+.inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.left-addon .fa  { 
+    left:  0px;
+}
+.left-addon input  { 
+    padding-left:  30px; 
+}
+input[type="text"]:focus{
+    box-shadow: none;
+    outline: 0 none;
+}
+.list-body{
+    margin-top: 3px;
+}
+.data-item{
+    background: white;
+    padding: 0;
+    margin: 1px 0px;
+}
+.footer{
+    background: white;
+    padding: 10px 10px 5px 10px;
+    margin-top: 2px;
+    font-size: small;
+}
+.status label{
+    position: relative;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.status label input{
+    display: none;
+}
+.status label span{
+    vertical-align: middle;
+    background: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 5px;
+    padding: 0px 5px 2px;
+}
+.status label input:checked ~ span{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.fas{
+    font-size: small;
+}
+.change-status label{
+    position: relative;
+    cursor: pointer;
+    margin-left: 2px;
+    padding: 5px;
+}
+.change-status label input{
+    display: none;
+}
+.change-status label span{
+    vertical-align: middle;
+    background: white;
+    border: 2px solid #FAF9FA;
+    color: black;
+    border-radius: 25px;
+    padding: 0px 5px 2px;
+}
+.change-status label span i{
+    color: white;
+}
+.change-status label input:checked ~ span{
+    background: white;
+    color: black;
+    border: 2px solid #FAF9FA;
+}
+.change-status label input:checked ~ span i{
+    color: green;
+}
+.close{
+    position: absolute;
+    right: 5;
+    top: 5;
+    visibility: hidden;
+}
+.data-item:hover .close{
+    visibility: visible;
+}
+.note-title{
+    display: block;
+    padding: 5px 0px;
+}
+.clear-completed{
+    cursor: pointer;
+}
+.change-visibility{
+    visibility: hidden;
+}
+.col-md-1{
+    padding: 0;
+}
+.col-md-11{
+    padding: 0;
+}
